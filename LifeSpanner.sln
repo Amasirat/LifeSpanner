@@ -8,6 +8,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpanner.Persistence", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpanner.API", "Src\Presentation\LifeSpanner.API\LifeSpanner.API.csproj", "{B87E81CE-892E-4233-A69B-F2A107BE2A09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpanner.UnitTests.Core", "Tests\UnitTests\LifeSpanner.UnitTests.Core\LifeSpanner.UnitTests.Core.csproj", "{8F88E732-7E39-473F-B45D-C5BCB07B5325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpanner.UnitTests.Persistence", "Tests\UnitTests\LifeSpanner.UnitTests.Persistence\LifeSpanner.UnitTests.Persistence.csproj", "{1DF83BDE-6809-448D-8680-28627BEAE6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpanner.UnitTests.API", "Tests\UnitTests\LifeSpanner.UnitTests.API\LifeSpanner.UnitTests.API.csproj", "{CAD0BE04-977A-488E-B070-9A84AF9949AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,17 @@ Global
 		{B87E81CE-892E-4233-A69B-F2A107BE2A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B87E81CE-892E-4233-A69B-F2A107BE2A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B87E81CE-892E-4233-A69B-F2A107BE2A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F88E732-7E39-473F-B45D-C5BCB07B5325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F88E732-7E39-473F-B45D-C5BCB07B5325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F88E732-7E39-473F-B45D-C5BCB07B5325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F88E732-7E39-473F-B45D-C5BCB07B5325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF83BDE-6809-448D-8680-28627BEAE6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF83BDE-6809-448D-8680-28627BEAE6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF83BDE-6809-448D-8680-28627BEAE6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF83BDE-6809-448D-8680-28627BEAE6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD0BE04-977A-488E-B070-9A84AF9949AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD0BE04-977A-488E-B070-9A84AF9949AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD0BE04-977A-488E-B070-9A84AF9949AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD0BE04-977A-488E-B070-9A84AF9949AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpanner.UnitTests.Persi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpanner.UnitTests.API", "Tests\UnitTests\LifeSpanner.UnitTests.API\LifeSpanner.UnitTests.API.csproj", "{CAD0BE04-977A-488E-B070-9A84AF9949AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpanner.Common", "Src\Application\LifeSpanner.Common\LifeSpanner.Common.csproj", "{8C8CD3B7-E2B7-4343-A27B-863B1C0D1187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{CAD0BE04-977A-488E-B070-9A84AF9949AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD0BE04-977A-488E-B070-9A84AF9949AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAD0BE04-977A-488E-B070-9A84AF9949AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8CD3B7-E2B7-4343-A27B-863B1C0D1187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8CD3B7-E2B7-4343-A27B-863B1C0D1187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8CD3B7-E2B7-4343-A27B-863B1C0D1187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8CD3B7-E2B7-4343-A27B-863B1C0D1187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

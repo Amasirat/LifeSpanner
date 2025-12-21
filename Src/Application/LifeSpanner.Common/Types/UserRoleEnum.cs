@@ -1,6 +1,7 @@
 namespace LifeSpanner.Common.Types;
 
-public enum UserRoleEnum
+public enum UserRoleEnum : byte
 {
-    
+    Admin,
+    Regular
 }

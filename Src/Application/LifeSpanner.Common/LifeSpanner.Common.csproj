@@ -6,8 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\LifeSpanner.Common\LifeSpanner.Common.csproj" />
-    </ItemGroup>
-
 </Project>

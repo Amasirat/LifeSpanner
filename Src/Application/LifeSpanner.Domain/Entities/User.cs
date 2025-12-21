@@ -1,15 +1,23 @@
 using System.ComponentModel.DataAnnotations;
+using LifeSpanner.Common.Types;
 
 namespace LifeSpanner.Domain.Entities;
 
 public class User : BaseEntity
 {
-    [StringLength(50)]
+    [MaxLength(50)]
     public required string Username { get; set; }
     
-    [StringLength(50)]
+    [MaxLength(50)]
     public required string Email { get; set; }
     
-    [StringLength(256)]
+    [MaxLength(256)]
     public required string PasswordHash { get; set; }
+    
+    [EnumDataType(typeof(UserRoleEnum))]
+    public UserRoleEnum Role { get; set; }
+    
+    public DateTime? EmailVerifiedAt { get; set; }
+    
+    public ushort EndDayOffset { get; set; }
 }

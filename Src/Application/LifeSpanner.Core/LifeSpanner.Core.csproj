@@ -10,4 +10,15 @@
       <ProjectReference Include="..\LifeSpanner.Domain\LifeSpanner.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Dtos\Span\" />
+      <Folder Include="Dtos\User\" />
+      <Folder Include="Factories\Mapping\" />
+      <Folder Include="MappingProfiles\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="16.0.0" />
+    </ItemGroup>
+
 </Project>

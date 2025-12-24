@@ -4,7 +4,7 @@ using LifeSpanner.Common.Types;
 
 namespace LifeSpanner.Domain.Entities;
 
-public class Task : BaseEntity
+public class Tactic : BaseEntity
 {
     [MaxLength(50)]
     public required string Title { get; set; }

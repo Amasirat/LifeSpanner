@@ -11,8 +11,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Dtos\Span\" />
-      <Folder Include="Dtos\User\" />
       <Folder Include="Factories\Mapping\" />
       <Folder Include="MappingProfiles\" />
     </ItemGroup>

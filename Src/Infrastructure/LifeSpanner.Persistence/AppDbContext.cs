@@ -39,7 +39,7 @@ public class AppDbContext : DbContext
     
     public DbSet<Span> Spans { get; set; }
     
-    public DbSet<Domain.Entities.Task> Tasks { get; set; }
+    public DbSet<Domain.Entities.Tactic> Tasks { get; set; }
     
     public DbSet<Week> Weeks { get; set; }
     

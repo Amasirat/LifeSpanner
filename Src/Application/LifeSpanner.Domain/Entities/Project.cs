@@ -14,6 +14,6 @@ public class Project : BaseEntity
     public Project? Parent { get; set; }
     
     public IEnumerable<Goal> Goals { get; set; } = new List<Goal>();
-    public IEnumerable<Task> Tasks { get; set; } = new List<Task>();
+    public IEnumerable<Tactic> Tasks { get; set; } = new List<Tactic>();
     public IEnumerable<Section> Sections { get; set; } = new List<Section>();
 }

@@ -9,5 +9,5 @@ public class Section : BaseEntity
     
     public required Project Project { get; set; }
     
-    public IEnumerable<Task> Tasks { get; set; } = new List<Task>();
+    public IEnumerable<Tactic> Tasks { get; set; } = new List<Tactic>();
 }

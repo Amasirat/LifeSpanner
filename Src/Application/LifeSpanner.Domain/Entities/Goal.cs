@@ -21,5 +21,5 @@ public class Goal : BaseEntity
     
     public IEnumerable<Span> Spans { get; set; } = new List<Span>();
     
-    public IEnumerable<Task> Tasks { get; set; } = new List<Task>();
+    public IEnumerable<Tactic> Tasks { get; set; } = new List<Tactic>();
 }

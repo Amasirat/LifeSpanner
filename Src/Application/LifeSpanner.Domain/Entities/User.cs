@@ -21,7 +21,7 @@ public class User : BaseEntity
     
     public ushort EndDayOffset { get; set; }
     
-    public IEnumerable<Task> Tasks { get; set; } = new List<Task>();
+    public IEnumerable<Tactic> Tasks { get; set; } = new List<Tactic>();
     public IEnumerable<Goal> Goals { get; set; } = new List<Goal>();
     public IEnumerable<Span> Spans { get; set; } = new List<Span>();
     public IEnumerable<Project> Projects { get; set; } = new List<Project>();
